@@ -1,0 +1,83 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro1</title>
+    <link rel="stylesheet" href="coso1.html">
+    <link rel="stylesheet" href="coso.css" />
+    <link rel="stylesheet" href="libro1.html">
+    <link rel="stylesheet" href="libro2.html">
+    <link rel="stylesheet" href="libro3.html">
+    <link rel="stylesheet" href="oferta1.html">
+    <link rel="stylesheet" href="oferta2.html">
+    <link rel="stylesheet" href="carrito.html">
+    <link rel="stylesheet" href="favoritos.html">
+    <link rel="stylesheet" href="libros.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-nav">
+          <img src="https://ugc.production.linktr.ee/b2caf9fe-e66a-4c6e-8a7e-aa65a5e3954c_unnamed--1-.jpeg?io=true&size=avatar-v3_0" alt="Logo de la Librería" class="header__logo" />
+          <h1 class="header__title">La Torre</h1>
+        </div>
+    
+        <div class="header__search-cart">
+          <form action="buscar.php" method="GET" class="header__search-form">
+            <input type="text" name="query" placeholder="Buscar libro..." required class="header__input" />
+            <button type="submit" class="header__button">Buscar</button>
+          </form>
+    
+          <a href="carrito.html" class="header__icon" title="Mi carrito" aria-label="Mi carrito">
+            <i class="fas fa-shopping-cart"></i>
+            <p class="header__icon-text">Carrito</p>
+          </a>
+    
+          <a href="libros.html" class="header__icon" title="Ver libros" aria-label="Ver libros">
+            <i class="fas fa-book"></i>
+            <p class="header__icon-text">Libros</p>
+          </a>
+    
+          <a href="favoritos.html" class="header__icon" title="Favoritos" aria-label="Favoritos">
+            <i class="fas fa-heart"></i>
+            <p class="header__icon-text">Favoritos</p>
+          </a>
+
+          <a href="coso1.html" class="header__icon" title="Inicio" aria-label="Inicio">
+            <i class="fas fa-home"></i>
+            <p class="header__icon-text">Inicio</p>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section class="book-detail">
+
+            <div class="book">
+            <img src="https://i.pinimg.com/736x/5f/89/5a/5f895a7e0bd19a9437f11e5a5d69d1bb.jpg" alt="Portada del libro" class="book__image book__image--detalle" />
+            <h2 class="book__title">The bear and the nightingale</h2>
+            <p class="book__author"><strong>Autor:</strong> Katherine Arden</p>
+            <p class="book__author"> Sumérgete en un mundo de aventuras, magia y descubrimientos. Acompaña a nuestros protagonistas en un viaje inolvidable a través de tierras encantadas, donde cada página está llena de sorpresas.</p>
+            <p class="book__description">Bs.300</p>
+
+            <div class="book__actions">
+              <a href="carrito.html" class="book__button">Comprar</a>
+              <a href="favoritos.html" class="book__button book__button--favorite">Añadir a Favoritos</a>
+              <a href="libros.html" class="book__button">Volver</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <section class="contact">
+        <h2 class="contact__title">Contacto</h2>
+        <p>Atención en online:</p>
+        <p>Si tienes alguna consulta, contáctanos a través del correo: <a href="mailto:Librerialatorre@gmail.com">Librerialatorre@gmail.com</a></p>
+        <p class="contact__phone">+591 624 15267</p>
+      </section>
+    
+      <footer class="footer">
+        <p class="footer__text">&copy; 2025 Librería Virtual. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Librería La Torre</title>
+  <link rel="stylesheet" href="coso1.html">
+  <link rel="stylesheet" href="coso.css" />
+  <link rel="stylesheet" href="libro1.html">
+  <link rel="stylesheet" href="libro2.html">
+  <link rel="stylesheet" href="libro3.html">
+  <link rel="stylesheet" href="oferta1.html">
+  <link rel="stylesheet" href="oferta2.html">
+  <link rel="stylesheet" href="carrito.html">
+  <link rel="stylesheet" href="favoritos.html">
+  <link rel="stylesheet" href="libros.html">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-nav">
+          <img src="https://ugc.production.linktr.ee/b2caf9fe-e66a-4c6e-8a7e-aa65a5e3954c_unnamed--1-.jpeg?io=true&size=avatar-v3_0" alt="Logo de la Librería" class="header__logo" />
+          <h1 class="header__title">La Torre</h1>
+        </div>
+    
+        <div class="header__search-cart">
+          <form action="buscar.php" method="GET" class="header__search-form">
+            <input type="text" name="query" placeholder="Buscar libro..." required class="header__input" />
+            <button type="submit" class="header__button">Buscar</button>
+          </form>
+    
+          <a href="carrito.html" class="header__icon" title="Mi carrito" aria-label="Mi carrito">
+            <i class="fas fa-shopping-cart"></i>
+            <p class="header__icon-text">Carrito</p>
+          </a>
+    
+          <a href="libros.html" class="header__icon" title="Ver libros" aria-label="Ver libros">
+            <i class="fas fa-book"></i>
+            <p class="header__icon-text">Libros</p>
+          </a>
+    
+          <a href="favoritos.html" class="header__icon" title="Favoritos" aria-label="Favoritos">
+            <i class="fas fa-heart"></i>
+            <p class="header__icon-text">Favoritos</p>
+          </a>
+
+          <a href="coso1.html" class="header__icon" title="Inicio" aria-label="Inicio">
+            <i class="fas fa-home"></i>
+            <p class="header__icon-text">Inicio</p>
+          </a>
+        </div>
+    </header>
+
+      <main class="confirmation">
+        <h2 class="confirmation__title">¡Gracias por tu compra!</h2>
+        <p class="confirmation__message">Tu pedido ha sido procesado exitosamente.</p>
+        <a href="coso1.html" class="confirmation__button">Volver al inicio</a>
+      </main>
+
+</body>
+</html>

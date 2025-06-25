@@ -1,0 +1,107 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Librería La Torre</title>
+  <link rel="stylesheet" href="coso.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://github.com/Sergio-Fab/libreria-web.git">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-nav">
+          <img src="https://ugc.production.linktr.ee/b2caf9fe-e66a-4c6e-8a7e-aa65a5e3954c_unnamed--1-.jpeg?io=true&size=avatar-v3_0" alt="Logo de la Librería" class="header__logo" />
+          <h1 class="header__title">La Torre</h1>
+        </div>
+    
+        <div class="header__search-cart">
+          <form action="buscar.php" method="GET" class="header__search-form">
+            <input type="text" name="query" placeholder="Buscar libro..." required class="header__input" />
+            <button type="submit" class="header__button">Buscar</button>
+          </form>
+    
+          <a href="carrito.html" class="header__icon" title="Mi carrito" aria-label="Mi carrito">
+            <i class="fas fa-shopping-cart"></i>
+            <p class="header__icon-text">Carrito</p>
+          </a>
+    
+          <a href="libros.html" class="header__icon" title="Ver libros" aria-label="Ver libros">
+            <i class="fas fa-book"></i>
+            <p class="header__icon-text">Libros</p>
+          </a>
+    
+          <a href="favoritos.html" class="header__icon" title="Favoritos" aria-label="Favoritos">
+            <i class="fas fa-heart"></i>
+            <p class="header__icon-text">Favoritos</p>
+          </a>
+
+          <a href="coso1.html" class="header__icon" title="Inicio" aria-label="Inicio">
+            <i class="fas fa-home"></i>
+            <p class="header__icon-text">Inicio</p>
+          </a>
+        </div>
+      </header>
+  <section class="books">
+    <h2 class="books__title">Novedades</h2>
+    <section class="book-list">
+      <article class="book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRHBn7pas24juwxHp6Z6w7Hw1Cw8Hm4SkAg&s" alt="Libro 1" class="book__image" />
+        <h3 class="book__title">The Riddle Of The Sea</h3>
+        <p class="book__author"><strong>Autor:</strong> Jonne Kramer</p>
+        <p class="book__description">Bs.250</p>
+        <a href="libro1.html" class="book__button">Comprar</a>
+      </article>
+
+      <article class="book">
+        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546989078i/43513999.jpg" alt="Libro 2" class="book__image" />
+        <h3 class="book__title">Scavengers</h3>
+        <p class="book__author"><strong>Autor:</strong> Darren Simpson</p>
+        <p class="book__description">Bs.310</p>
+        <a href="libro2.html" class="book__button">Comprar</a>
+      </article>
+
+      <article class="book">
+        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1609190681i/56452331.jpg" alt="Libro 3" class="book__image" />
+        <h3 class="book__title">Sea Smoke</h3>
+        <p class="book__author"><strong>Autor:</strong> Allison Carr</p>
+        <p class="book__description">Bs.190</p>
+        <a href="libro3.html" class="book__button">Comprar</a>
+      </article>
+    </section>
+  </section>
+
+  <section class="ofertas">
+    <h2 class="ofertas__title">Ofertas</h2>
+    <section class="book-list">
+        <article class="book">
+            <img src="https://i.pinimg.com/736x/5f/89/5a/5f895a7e0bd19a9437f11e5a5d69d1bb.jpg" alt="Oferta 1" class="book__image" />
+        <h3 class="book__title">The bear and the nightingale</h3>
+        <p class="book__author"><strong>Autor:</strong> Katherine Arden</p>
+        <p class="book__description">Bs.300</p>
+        <a href="oferta1.html" class="book__button">Comprar</a>
+        </article>
+
+        <article class="book">
+            <img src="https://i.pinimg.com/736x/6f/dd/f0/6fddf0c6b361e01318acdc1a3d126cb6.jpg" alt="Oferta 2" class="book__image" />
+            <h3 class="book__title">Our infinity fates</h3>
+            <p class="book__author"><strong>Autor:</strong> Laura Steven</p>
+            <p class="book__description">Bs.420</p>
+            <a href="oferta2.html" class="book__button">Comprar</a>
+          </article>
+    </section>
+
+
+  </section>
+
+  <section class="contact">
+    <h2 class="contact__title">Contacto</h2>
+    <p>Atención en online:</p>
+    <p>Si tienes alguna consulta, contáctanos a través del correo: <a href="mailto:Librerialatorre@gmail.com">Librerialatorre@gmail.com</a></p>
+    <p class="contact__phone">+591 624 15267</p>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Librería Virtual. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
